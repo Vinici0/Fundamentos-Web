@@ -73,3 +73,112 @@ body{
      font-size: 25px;
      font-family: italic;
  }
+ /*A trabajr con el main*/
+.main{
+    background: url('../img/textura.jpg');
+    background-repeat: repeat;
+
+} 
+
+.main .acerca-de .contenedor{
+    overflow: visible;
+    position: relative;
+
+}
+
+.main .acerca-de .foto{
+    width: 80%;
+    position:absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+
+}
+.main .acerca-de .foto img{
+    vertical-align:top;
+    width: 100%;
+
+}
+.main .acerca-de article{
+    background: white;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    /*top:500px;*/
+    top:150px ;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+    float: right;
+}
+.main .acerca-de article h3{
+    font-size: 50px;
+    font-weight: 40px;
+    margin-bottom: 40px;
+}
+.main .acerca-de article p {
+    line-height: 28px;
+    margin-bottom: 15px;
+
+}
+
+/*Con el menú*/
+.main .menu{
+    padding-top: 570px;
+    margin-bottom: 50px;
+
+}
+.main .menu .titulo{
+    font-size:40px;
+    font-weight: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main .menu .contenedor-propiedades,
+.main .menu .contenedor-propiedades2{
+    border: 1px solid black;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main .menu article{
+    width: 50%;
+    float: left;
+    padding: 20px;
+
+}
+
+
+.main .menu .categoria{
+    font-size: 22px;
+    font-weight: 700px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .menu .precios{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted black;
+    overflow: hidden;
+}
+.main .menu .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+
+}
+
+.main .menu .precio{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+.main .menu .descripción{
+    font-size: 16px;
+    color: #676767;
+    clear: both;
+}
+/*hasta aquí el menú*/

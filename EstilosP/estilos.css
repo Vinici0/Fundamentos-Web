@@ -118,7 +118,6 @@ nav{
         top: 50%;
         margin-top: -52px;
         text-align: center;
-    ;
         border-style:inset;
         border-width: 9px 9px 9px 9px;
         border-color:rgb(71, 30, 30);
@@ -182,10 +181,49 @@ nav{
 /*PROPIEDADES*/
 .propiedades {
     text-align: center;
-    
+    border-style: groove;
+    width: 88%;
+    margin: 48px;
+    background-color: #eeeeeef3;
+    border-radius: 12px;
+    top: 50%;
 }
 
 
+/*INTENTO DE FLEXBOX*/
+.container_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*BOTONES DE LAS PROPIEDADES ICONOS*/
+
+.icono-contactar{
+    height: 50px;
+    width: 150px;
+    background-color: #000000f3;
+    font-family: 'Potta One'; 
+    border-color: rgb(12, 12, 12);
+    border-radius: 12px;
+    font-size: 18px;
+    color:#f1f1f1;
+}
+.icono-favorito{
+    height: 50px;
+    width: 50px;
+    background-color: #ffd9d9f3;
+    border-color: rgb(12, 12, 12);
+    border-radius: 10px;
+    
+}
+
+.icono-whatsaap{
+    height: 50px;
+    width: 50px;
+    background-color: #c7ffbcf3;
+    border-color: rgb(12, 12, 12);
+    border-radius: 12px; 
+}
     
     .main .acerca-de .contenedor{
         overflow: visible;

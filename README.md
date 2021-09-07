@@ -1,3 +1,3 @@
 # Fundamentos-Web
 Proyecto U3
-Hola
+Desarrollado por Vinicio Borja,  María José Párraga, Kevin Paute y Jhon Zambrano  ☺

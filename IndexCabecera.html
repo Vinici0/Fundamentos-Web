@@ -12,7 +12,7 @@
     <link href='https://fonts.googleapis.com/css?family=Potta One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet'>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="Estilos/estilosPaginaPri.css">
     <title>PROYECTO♥</title>
 </head>
 
@@ -22,7 +22,7 @@
         <div class="cabecera">
             <!--Cabezaera-->
             <header>
-                <div class="wrapper">
+                <div class="EnvolC"> <!--wrapper-->
 
                     <nav class="ingresarn">
                         <a href="LOGIN.html"><b>Ingresar</b></a>
@@ -33,7 +33,7 @@
                     </nav>
 
                     <ul class="nav">
-                        <li><a href="">Comprar <img
+                        <li><a href="">Comprar  <!--imagen es para el ícono de flecha hacia abajo--> <img   
                                     src="https://img2.freepng.es/20180531/iru/kisspng-drop-down-list-menu-arrow-button-5b1060b90a7402.3226348815277999930428.jpg"
                                     alt="" width="10px" height="7px"> </a>
                             <ul>
@@ -209,17 +209,19 @@
                 <a href=""><b>Proyectos</b></a>
             </div>
             <div class=cajamenu>
-                <p>Ubicación buscar en listado</p>
-                <div class="campo w-222">
-                    <a href=""><b>Buscar por estado o zona</b></a>
+                <p>Ubicación </p>
+                <div class="fo w-1">
+                    <div class="textC">
+                <input class="sinborde2" id="textC" type="text" name="Buscar listado">
+            </div>
                 </div>
-                <div class="campo w-111">
+                <div class="fo w-11">
 
-                    <a href="#"><b>Ver mapa</b></a>
+                    <a href="mapa.html" target="_blank"><b>Ver mapa</b></a>
 
                 </div>
                 <p>Tipo de inmueble</p>
-                <div class="campo w-100">
+                <div class="fo w-12">
 
                     <select class="sinborde" name="w-777">
 
@@ -244,7 +246,7 @@
                     </select>
                 </div>
                 <p>Numero de habitaciones</p>
-                <div class="campo w-112">
+                <div class="fo w-13">
 
                     <select class="sinborde" name="w-777">
 
@@ -258,7 +260,7 @@
 
                     </select>
                 </div>
-                <div class="campo w-113">
+                <div class="fo w-14">
                     <select class="sinborde" name="w-777">
 
                         <option> Sin máximo </option>
@@ -272,10 +274,19 @@
                     </select>
                 </div>
                 <p>Precio</p>
-                <div class="campo w-222">
-                    <a href=""><b>Seleccionar precio</b><img
-                            src="https://img2.freepng.es/20180531/iru/kisspng-drop-down-list-menu-arrow-button-5b1060b90a7402.3226348815277999930428.jpg"
-                            alt="" width="10px" height="5px"></a>
+                <div class="f1-2222" >
+                    <select class="sinborde" name="w-777" style="border: 0px;">
+
+                        <option style="text-align: center;"> Precio </option>
+                        <option>50$</option>
+                        <option>100$</option>
+                        <option>150$</option>
+                        <option>200$</option>
+                        <option>300$</option>
+
+
+                    </select>
+    
                 </div>
             </div>
         </div>
@@ -326,6 +337,7 @@
                                     height="35px"></button>
                             <button class="icono-whatsaap"><img src="./img/icowha.png" width="35px"
                                     height="35px"></button>
+                            <a class="icono-favorito" href="#"> <img src="img/icowha.png" alt="" width="35px" height="35px"></a>
                         </td>
                     </tr>
                 </table>
@@ -449,8 +461,63 @@
         <!--NO TOCAR-->
 
 
+        <!--EMPIEZA EL PIE DE PÁGINA -->
+       
+        <div class="footer">
+            <div class="opcion">
+                <h2>Mas pluvalia</h2>
+                          <a href="">Descarga la app Android</a>
+                          <a href="">Descarga la app iPhone</a>
+                          <a href="">Inmuebles en Ecuador</a>
+                          <a href="">Publicar tu Inmuebles</a>
+                          <a href="">Ayuda</a>
+                          <a href="">Mapa del sitio</a>
+                          <a href="">Publicidad</a>
+                          <a href="">Noticias</a>
+            </div>
+            <div
+                          class="opcion">
+                          <h2>Anunciantes</h2>
+                           <a href="">Inmobiliarias</a>
+                          <a href="">Corredores</a>
+                          <a href="">Constructores</a>
+                       
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                      </div>
+                      <div
+                          class="opcion">
+                          <h2>Países</h2>
+                          <a href="">Argentina</a>
+                          <a href="">Brasil</a>
+                          <a href="">México</a>
+                          <a href="">Perú</a>
+                          <a href="">Venezuela</a>
+                          <a href="">Panamá</a>
+        
+                      </div>
+                      <div class="opcion2">
+                          <h2>Redes sociales: </h2>
+                         <div class="redes">
+                            <a class="icono" href="#"><img class="imagen" src="img/2fa.png"></a>
+                            <a class="icono" href="#"><img class="imagen" src="img/instagram.png"></a>
 
-
+                         </div>
+                         <div class="apss">
+                             <h2>Apps</h2>
+                           <a id="imagen" href="#"><img src="img/AppSptre (1).jpg" alt=""></a>
+                           <a id="imagen2" href="#"><img src="img/iconoFace.png" alt=""></a>
+                         </div>
+                         
+                      </div>
+        
+        
+        </div>
 
     </div>
     <!--(*)-->

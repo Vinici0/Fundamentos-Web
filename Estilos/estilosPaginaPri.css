@@ -5,10 +5,11 @@
     box-shadow: 0px 0px 7px 0px white;
     background-color: white;
     display: grid;
-    grid-template-areas: "cabecera cabecera cabecera"
+    grid-template-areas: "  cabecera    cabecera    cabecera"
                             "formulario propiedades propiedades"
                             "formulario propiedades propiedades"
-                            "footer footer footer";
+                            "footer     footer     footer"
+                            ;
                     
                          
     border: 3px solid white;
@@ -34,6 +35,7 @@
     grid-area: cabecera;
     border: 1px solid white;
     width: 1270px;
+    margin-bottom: 100px;
   
    
 }
@@ -71,18 +73,20 @@ ul, ol {
     display:block;   
 }
 .nav li a:hover {
-    background-color:#f4f5f5;
+    background-color:lightpink;
+    
 }
 .nav li ul {
     
     display:none;
     position:absolute;
     min-width:140px;
+    background-color:white;
 }
 .nav li:hover > ul {
     display:block;
 }
-.wrapper {
+.EnvolC {
 	width:95%; 
 	max-width:1400px; 
 	margin:10px; 
@@ -132,6 +136,17 @@ header .publicarn a:hover {
 	border-radius:50px;
 }
 /*Formulario*/
+.textC{
+   
+  margin-top: 20px;
+  display: flex;
+    
+}
+.sinborde2{
+    border: 0px;
+    width: 100%;
+    height: 20px;
+}
 
 .formulario{
     box-shadow: 0px 0px 7px 0px white;
@@ -156,7 +171,7 @@ header .publicarn a:hover {
     font-weight: 5448px;
     width :316px; 
 	overflow:hidden; 
-	background:#341338;
+	background:lightblue;
     margin-bottom:20px;
     padding: 8px 2px 2px;
     margin-bottom: -220px;
@@ -167,7 +182,7 @@ header .publicarn a:hover {
 }
 .legendx a {
 	display:inline-block;
-	color:rgb(237, 195, 241);
+	color:black;
 	text-decoration:none;
 	padding:10px 10px;
 	line-height:normal;
@@ -177,15 +192,14 @@ header .publicarn a:hover {
     	
 }
 .legendx a:hover {
-	background:#0f0611;
+	background:lightpink;
 }
-.campo{
+.fo{
 	margin-bottom: 1rem;
     width: 100%;
-    
     color:rgb(241, 235, 235);   
 }
-.w-100{
+.w-12{
     color:#f4f5f5;
 	font-size:10px;
 	line-height:70px;
@@ -197,7 +211,7 @@ header .publicarn a:hover {
    width: 45%;
    height: 50px;
 }
-.w-100 a{
+.w-12 a{
     display:inline-block;
 	color:#fff;
 	text-decoration:none;
@@ -206,30 +220,30 @@ header .publicarn a:hover {
 ul, ol {
     list-style:none;
 }
-.w-100 > li {
+.w-12 > li {
     float:left;
 }
-.w-100 li a {
+.w-12 li a {
     background-color:#f4f5f5;
     color:rgb(48, 43, 43);
     text-decoration:none;
     padding:10px 12px;
     display:block;   
 }
-.w-100 li a:hover {
+.w-12 li a:hover {
     background-color:#fff;
 }
-.w-100 li ul {
+.w-12 li ul {
     display:none;
     position:absolute;
     min-width:140px;
 }
-.w-100 li:hover > ul {
+.w-12 li:hover > ul {
     display:block;
 }
-.w-111{
+.w-11{
     display: grid;
-    background-color:#f8652b;
+    background-color:white;
     border-radius:10px;
     width: 90%;
     align-items: center;
@@ -239,14 +253,17 @@ ul, ol {
  
     
 }
-.w-111 a{
+.w-11 a{
     display: flex;
     align-items: center;
     justify-content: center;
-	color:#fff;
+	color:black;
     font-size: 15px;
 }
-.w-112{
+.w-11 a:hover{
+    color: red;
+}
+.w-13{
     color:#f4f5f5;
 	font-size:17px;
 	line-height:70px;
@@ -258,13 +275,13 @@ ul, ol {
     width: 105px;
     margin-top: 1%; 
 }
-.w-112 a{
+.w-13 a{
     display:inline-block;
 	color:rgb(70, 66, 66);
 	text-decoration:none;
     line-height:normal;	
 }
-.w-113{
+.w-14{
     color:#f4f5f5;
 	font-size:17px;
 	line-height:70px;
@@ -277,13 +294,13 @@ ul, ol {
     margin-left: 17%;
     margin-top: 1%;
 }
-.w-113 a{
+.w-14 a{
     display:inline-block;
 	color:rgb(70, 66, 66);
 	text-decoration:none;
 	line-height:normal;	
 }
-.w-222{
+.w-1{
     color:#272929;
 	font-size:15px;
 	line-height:30px;
@@ -296,29 +313,37 @@ ul, ol {
      margin-top:-4%;
      height: 50px;
 }
-.w-222 a{
+.w-1 a{
     display:inline-block;
 	color:rgb(41, 40, 40);
 	text-decoration:none;
     line-height:normal;
     padding: 0px 0px 0px 0px;	
 }
-/*Prubas de estilos*/
+.f1-2222{
+    color:#272929;
+	font-size:15px;
+	line-height:30px;
+    float:left;
+    background-color:#f4f5f5;
+    border-radius:10px;
+     width: 45%;
+     margin-top:-4%;
+    
+
+}
+/*Prubas de estilos para los textos del fomrulario*/
 a {
     color: white;
     font-size: 10px;
     display: block;
-    margin: auto;
+ 
     margin-top: 20px;
-    margin-left: 20px;
     text-decoration: none;
     
 }
 
-a:hover {
-    color: #1c1d1d;
-    font-weight: times;
-}
+
 
 h2 {
     margin-left: 20px;
@@ -340,7 +365,7 @@ h3 {
 	font: size 10;
 	line-height:30px;
     float:left;
-    background-color:#570f53;
+    background-color:darksalmon;
     padding:0px 0px;
     font: sans-serif; 
      width: 300px;
@@ -408,3 +433,80 @@ h3 {
     border-color: rgb(12, 12, 12);
     border-radius: 12px; 
 }
+.footer{
+    grid-area: footer;
+}
+/*Estilos para el pie de página*/
+.footer{
+    display: flex;
+    margin-top: 13px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.opcion {
+    width: 25%;
+    height: 100%;
+    color: white;
+    display: grid;
+    padding: 2%;
+}
+
+.opcion a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.opcion h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.opcion h2:hover{
+    color: firebrick;
+}
+
+/*Iconos*/
+.icono{
+   
+    border: 0px;
+    
+}
+.imagen{
+display: flex;
+}
+
+/*Para redes*/
+ .opcion2{
+    width: 25%;
+    height: 100%;
+    color: white;
+    /*display: grid;*/
+    padding: 2%;  
+ }
+ 
+.opcion2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.opcion2 h2:hover{
+    color: firebrick;
+}
+.opcion a:hover{
+
+    background-color:white;
+    color: darksalmon; 
+}
+.opcion2 .apps :hover{
+    color: firebrick;
+  
+}
+
+
+
+

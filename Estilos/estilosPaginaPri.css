@@ -20,6 +20,7 @@
     width: 100%;
     height: 2570px;
     
+    
 }
 
 /*Estilos para la cabecera*/
@@ -27,7 +28,6 @@
     box-shadow: 0px 0px 7px 0px white;
     background-color: white;
     border-radius: 20px;
-    background-image: url("../img/logoc.PNG");
     background-size: cover;
     background-position: center;
     margin: 10px;
@@ -37,6 +37,7 @@
     width: 1270px;
     margin-bottom: 100px;
   
+  
    
 }
 .nav {	
@@ -44,6 +45,7 @@
 	font-size:10px;
 	line-height:70px;
 	float:left;
+ 
     
 }
 .nav a {
@@ -55,11 +57,12 @@
 	line-height:normal;
 	font-size:20px;
     font-weight:bold;
-    font: 150% sans-serif;	
+    font: 150% 'Advent Pro';
 
 }
 ul, ol {
     list-style:none;
+   
     
 }
 .nav > li {
@@ -70,10 +73,11 @@ ul, ol {
     color:rgb(48, 43, 43);
     text-decoration:none;
     padding:10px 12px;
-    display:block;   
+    display:block; 
+    font-weight:bold;  
 }
 .nav li a:hover {
-    background-color:lightpink;
+    background-color:rgb(252, 213, 219);
     
 }
 .nav li ul {
@@ -136,6 +140,8 @@ header .publicarn a:hover {
 	border-radius:50px;
 }
 /*Formulario*/
+
+
 .textC{
    
   margin-top: 20px;
@@ -161,6 +167,7 @@ header .publicarn a:hover {
     grid-area: formulario;
     border: 1px solid white;
     justify-items: center;
+    font-family: 'Advent Pro';
 }
 .legendx{
 	text-align: center;
@@ -171,7 +178,7 @@ header .publicarn a:hover {
     font-weight: 5448px;
     width :316px; 
 	overflow:hidden; 
-	background:lightblue;
+	background:rgb(255, 238, 139);
     margin-bottom:20px;
     padding: 8px 2px 2px;
     margin-bottom: -220px;
@@ -179,6 +186,7 @@ header .publicarn a:hover {
     margin-left: -0.9%;
     border-radius:10px 10px 0px 0px ;
     height: 60px; 
+    
 }
 .legendx a {
 	display:inline-block;
@@ -188,7 +196,7 @@ header .publicarn a:hover {
 	line-height:normal;
 	font-size:50px;
     font-weight:bold;
-    font: 60% sans-serif;
+    font: 80% 'Advent Pro';
     	
 }
 .legendx a:hover {
@@ -207,7 +215,7 @@ header .publicarn a:hover {
     background-color:#fff;
     border-radius:10px;
     padding:2px 70px;
-    font: sans-serif; 
+    font: 'Advent Pro'; 
    width: 45%;
    height: 50px;
 }
@@ -271,7 +279,7 @@ ul, ol {
     background-color: #fff;
     border-radius:10px;
     padding:9px 3px;
-    font: 10px sans-serif;
+    font: 10px 'Advent Pro';
     width: 105px;
     margin-top: 1%; 
 }
@@ -289,7 +297,7 @@ ul, ol {
     background-color: #fff;
     border-radius:10px;
     padding:9px 3px;
-    font: 60% sans-serif; 
+    font: 60% 'Advent Pro'; 
     width: 105px;
     margin-left: 17%;
     margin-top: 1%;
@@ -308,7 +316,7 @@ ul, ol {
     background-color:#f4f5f5;
     border-radius:10px;
     padding:0px 70px;
-    font: 10px sans-serif; 
+    font: 10px 'Advent Pro'; 
      width: 45%;
      margin-top:-4%;
      height: 50px;
@@ -337,7 +345,7 @@ a {
     color: white;
     font-size: 10px;
     display: block;
- 
+ font-family: 'Advent Pro';
     margin-top: 20px;
     text-decoration: none;
     
@@ -360,6 +368,8 @@ h3 {
     letter-spacing: 7px;
     color: black;
 }
+
+
 .cajamenu{
     color:#fff;
 	font: size 10;
@@ -367,7 +377,7 @@ h3 {
     float:left;
     background-color:darksalmon;
     padding:0px 0px;
-    font: sans-serif; 
+    font: 'Advent Pro'; 
      width: 300px;
      margin-top:-200%;
      height: 550px;
@@ -391,28 +401,35 @@ h3 {
     text-align: center;
     border-style: groove;
     width: 98%;
-    background-color: #eeeeeef3;
+    background: url("../img/propiedad1.jpg");
     border-radius: 12px;
+    border-color:#ffbf99;
 }
 .propiedad3-4{
     text-align: center;
     border-style: groove;
     width: 98%;
-    background-color: #a6ffc831;
+    background: url("../img/propiedad.jpg");
     border-radius: 12px;
+    border-color:#ffbf99;
 }
 
 
 
 
 /*BOTONES DE LAS PROPIEDADES ICONOS*/
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;    
+    border-color: #ff8b48;
+}
 
 .icono-contactar{
     height: 50px;
     width: 150px;
     background-color: #000000f3;
     font-family: 'Potta One'; 
-    border-color: rgb(12, 12, 12);
     border-radius: 12px;
     font-size: 18px;
     color:#f1f1f1;
@@ -421,7 +438,6 @@ h3 {
     height: 50px;
     width: 50px;
     background-color: #ffd9d9f3;
-    border-color: rgb(12, 12, 12);
     border-radius: 10px;
     
 }
@@ -430,7 +446,7 @@ h3 {
     height: 50px;
     width: 50px;
     background-color: #c7ffbcf3;
-    border-color: rgb(12, 12, 12);
+
     border-radius: 12px; 
 }
 .footer{
@@ -440,7 +456,7 @@ h3 {
 .footer{
     display: flex;
     margin-top: 13px;
-
+    background: url("../img/footer1.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;

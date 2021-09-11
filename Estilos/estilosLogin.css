@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #ffe0b7;
+    background: #ffe7c7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,8 +146,8 @@ button.ghost {
 
 .overlay {
     background: #41ff90;
-    background: -webkit-linear-gradient(to right, #ff922b, #ff8d41);
-    background: linear-gradient(to right, #ec5711, #bb4711);
+    background: -webkit-linear-gradient(to right, #ffa149, #ff8b3e);
+    background: linear-gradient(to right, #f5ae51, #fd7536);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;

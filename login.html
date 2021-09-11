@@ -7,6 +7,59 @@
     <title>Login</title>
 </head>
 <body>
-    <h1>Practica 1</h1>
+    <div>
+        <div>
+            <form>
+                <h1>Crear Cuenta</h1>
+                <h3>Ingrese los datos para crear tu cuenta profesional</h3>
+                <label>Tipo de usuario</label>
+                <select>   
+                    <option disabled="disabled">Seleccionar</option> 
+                    <option>Particular</option>
+                    <option>Inmobiliria</option>
+                    <option>Constructora</option>
+                    <option>Corredor</option>
+                </select>              
+                <input type="email" name="email" placeholder="Correo" required="">
+                <input type="password" name="password" placeholder="Contraseña" required="">
+                
+                <h4>Datos</h4>
+                <input type="text" name="username" placeholder="Nombre" required="">
+                <input type="text" name="ruc" placeholder="RUC" required="">
+                <input type="text" name="telephone" placeholder="Telefono" required="">
+                <button type="submit" name="register" value="register">Registrar</button>
+            </form>
+        </div>
+        <div>
+            <form>
+                <h1>Iniciar Sesión</h1>
+
+                <input type="email" name="email" placeholder="Correo" required="">
+                <input type="password" name="password" placeholder="Contraseña" required="">
+
+                <button type="submit" name="login" value="login">Entrar</button>
+                <div>
+                    <button>Continuar con Facebook</button>
+                    <button>Continuar con Google</button>
+                    <button>Continuar con Apple</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <h1>¡Bienvenido!</h1>
+                    <p>Inicie sesión con su información personal</p>
+                    <button>Iniciar Sesión</button>
+                </div>
+
+                <div>
+                    <h1>¡Regístrese ahora!</h1>
+                    <p>Ingrese sus datos personales y comience una nueva vida con los mejores precios del año</p>
+                    <button>Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

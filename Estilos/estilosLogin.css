@@ -64,5 +64,58 @@ input {
     width: 100%;
 }
 
+button {
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+#facebook{
+    background-color: rgb(2, 83, 204);
+    border: 1px solid rgb(2, 83, 204);
+}
+
+#google{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(167, 167, 167);
+    color: black;
+}
+
+#apple{
+    background-color: rgb(3, 3, 3);
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.iniciar-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.crear-container {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
 
 

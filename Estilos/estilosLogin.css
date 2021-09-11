@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #ceffb7;
+    background: #ffe0b7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +54,7 @@ form {
     top: 0;
     height: 100%;
     transition: all 0.6s ease-in-out;
+    
 }
 
 input {
@@ -64,7 +65,7 @@ input {
     width: 100%;
 }
 
-button {
+button {   
     border-radius: 20px;
     border: 1px solid #ff672b;
     background-color: #FF4B2B;
@@ -76,12 +77,29 @@ button {
     text-transform: uppercase;
     transition: transform 80ms ease-in;
     width: 100%;
+    line-height: 30px;
+    justify-content: center;
 }
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
 
 #facebook{
     background-color: rgb(2, 83, 204);
     border: 1px solid rgb(2, 83, 204);
-    padding: 7px;
+    padding: 9px;
+    display: flex;
 }
 
 #google{
@@ -89,14 +107,19 @@ button {
     border: 1px solid rgb(167, 167, 167);
     padding: 7px;
     color: black;
+    display: flex;
 }
 
 #apple{
     background-color: rgb(3, 3, 3);
     border: 1px solid rgb(3, 3, 3);
     padding: 7px;
+    display: flex;
 }
 
+#img{
+    margin-left: 10px;
+}
 .iniciar-container {
     left: 0;
     width: 50%;

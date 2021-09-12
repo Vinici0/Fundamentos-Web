@@ -18,6 +18,12 @@ body {
   width: 1270px;
   margin: 0 90px;
 }
+.logo{
+  float:left;
+
+  color:#292828;	
+}
+
 .nav {
   color: #f4f5f5;
   font-size: 10px;
@@ -32,7 +38,7 @@ body {
   line-height: normal;
   font-size: 20px;
   font-weight: bold;
-  font: 150% sans-serif;
+  font: 150% 'Advent Pro';
 }
 
 ul,
@@ -358,15 +364,16 @@ h2 {
 }
 .footer {
   grid-area: footer;
+  font-family: 'Advent Pro';
 }
 /*Estilos para el pie de página*/
 .footer {
   display: flex;
-  margin-top: 13px;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+    margin-top: 13px;
+    background: url("../img/footer1.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 .opcion {
   width: 25%;
@@ -427,8 +434,9 @@ h2 {
 }
 
 /********************************************/
-/***********MIDIFICACIONES VINICIO*********/
+/***********MoDIFICACIONES VINICIO*********/
 /********************************************/
+
 .cont-1 {
   width: 100%;
   /* background-color: #1c1d1d; */
@@ -437,10 +445,12 @@ h2 {
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  font-family: 'Dekko';
 }
 
 .cont-1-1 {
   width: 85%;
+  font-family: 'Dekko';
 }
 
 .cont-1-1 {
@@ -456,6 +466,7 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
   /* object-fit: cover; PARA QUE OCUPE EL ACHO Y NO SE DISTORCIONO */
 }
 
@@ -470,6 +481,7 @@ h2 {
   width: 45%;
   margin: 0;
   padding: 8px;
+  
 }
 
 .foto-n2 {
@@ -482,7 +494,7 @@ h2 {
   border: 1px solid #fff;
   border-radius: 12px;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Dekko';
   box-sizing: border-box;
   width: 110px;
   height: 40px;
@@ -530,7 +542,7 @@ h2 {
 .lista-n li a {
   display: block;
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Dekko';
   color: #7c98a7;
 }
 
@@ -542,6 +554,7 @@ h2 {
   /* flex-wrap: wrap; Por si las moscas */
   justify-content: center;
   margin: 10px 10px;
+  
 }
 
 .cont-hijo-1 {
@@ -557,12 +570,12 @@ h2 {
 }
 
 p {
-  font-family: Hind, sans-serif;
+  font-family: 'Dekko';
 }
 
 h3 {
   font-size: 180%;
-  font-family: Hind, sans-serif !important;
+  font-family: 'Dekko'!important;
 }
 
 .ul-11 {

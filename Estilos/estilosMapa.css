@@ -88,7 +88,7 @@ ul, ol {
 	margin:10px; 
     overflow:hidden;    
 }
-header .ingresarn {
+header .ingresar {
     float:right;
     line-height:70px;
     color:#292828;	
@@ -99,7 +99,7 @@ header .ingresarn {
     color:#292828;	
 }
 
-header .ingresarn a {
+header .ingresar a {
 	display:inline-block;
 	color:#fff;
 	text-decoration:none;
@@ -112,13 +112,13 @@ header .ingresarn a {
     margin-left: 10px;
     font: 100% sans-serif;
 }
-header .ingresarn a:hover {
+header .ingresar a:hover {
 	background:#61afaf;
 	border-radius:10px;
 }
 
 
-
+/*Uso del contenedor Grid*/
 .mapa{
     grid-area: mapa;
 }

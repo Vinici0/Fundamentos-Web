@@ -119,12 +119,11 @@ header .ingresar a {
     font: 100% sans-serif;
 }
 header .ingresar a:hover {
-	background:rgb(255, 238, 139);
+	background:rgb(24, 175, 175);
 	border-radius:10px;
 }
 
 /*Formulario*/
-
 
 .textC{
    
@@ -132,12 +131,24 @@ header .ingresar a:hover {
   display: flex;
     
 }
-.sinborde2{
-    border: 0px;
-    width: 100%;
-    height: 20px;
 
+input{
+    border: none;
+    background-color: rgb(255, 251, 251);
+    width: 82%;
+    margin: 8px 0;
+    padding: 12px 15px;
+    color: black;
+    border-radius:10px;
 }
+
+#input{
+    width: 92%;
+    background-color: rgb(43, 166, 182);
+    font-weight: bolder;
+    border-radius:10px;
+}
+
 
 .formulario{
     box-shadow: 0px 0px 7px 0px white;
@@ -187,150 +198,56 @@ header .ingresar a:hover {
 .form2 a:hover {
 	background:lightpink;
 }
-.fo{
-	margin-bottom: 1rem;
-    width: 100%;
-    color:rgb(241, 235, 235);   
-}
-.w-12{
-    color:#f4f5f5;
-	font-size:10px;
-	line-height:70px;
-    float:left;
-    background-color:#fff;
-    border-radius:10px;
-    padding:2px 70px;
-    font: 'Advent Pro'; 
-   width: 45%;
-   height: 50px;
-}
-.w-12 a{
-    display:inline-block;
-	color:#fff;
-	text-decoration:none;
-	line-height:normal;	
-}
+
+
 ul, ol {
     list-style:none;
 }
-.w-12 > li {
-    float:left;
-}
-.w-12 li a {
-    background-color:#f4f5f5;
-    color:rgb(48, 43, 43);
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;   
-}
-.w-12 li a:hover {
-    background-color:#fff;
-}
-.w-12 li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-.w-12 li:hover > ul {
-    display:block;
-}
-.w-11{
-    display: grid;
-    background-color:white;
-    border-radius:10px;
-    width: 90%;
-    align-items: center;
-    justify-content: center;
- 
 
- 
-    
+#vermapa{
+    margin-top: auto;
+    margin-bottom: 20px;
 }
-.w-11 a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	color:black;
-    font-size: 15px;
-}
-.w-11 a:hover{
-    color: red;
-}
-.w-13{
-    color:#f4f5f5;
-	font-size:17px;
-	line-height:70px;
-    float:left;
-    background-color: #fff;
-    border-radius:10px;
-    padding:9px 3px;
-    font: 10px 'Advent Pro';
-    width: 105px;
-    margin-top: 1%; 
-}
-.w-13 a{
-    display:inline-block;
-	color:rgb(70, 66, 66);
-	text-decoration:none;
-    line-height:normal;	
-}
-.w-14{
-    color:#f4f5f5;
-	font-size:17px;
-	line-height:70px;
-    float:left;
-    background-color: #fff;
-    border-radius:10px;
-    padding:9px 3px;
-    font: 60% 'Advent Pro'; 
-    width: 105px;
-    margin-left: 17%;
-    margin-top: 1%;
-}
-.w-14 a{
-    display:inline-block;
-	color:rgb(70, 66, 66);
-	text-decoration:none;
-	line-height:normal;	
-}
-.w-1{
-    color:#272929;
-	font-size:15px;
-	line-height:30px;
-    float:left;
-    background-color:#f4f5f5;
-    border-radius:10px;
-    padding:0px 70px;
-    font: 10px 'Advent Pro'; 
-     width: 45%;
-     margin-top:-4%;
-     height: 50px;
-}
-.w-1 a{
-    display:inline-block;
-	color:rgb(41, 40, 40);
-	text-decoration:none;
-    line-height:normal;
-    padding: 0px 0px 0px 0px;	
-}
-.f1-2222{
-    color:#272929;
-	font-size:15px;
-	line-height:30px;
-    float:left;
-    background-color:#f4f5f5;
-    border-radius:10px;
-     width: 45%;
-     margin-top:-4%;
-    
 
+#tipoinmueble{
+    border-radius: 10px;
+    width: 92%;
+    margin: 8px 0;
+    padding: 12px 15px;
+    margin-bottom: 25px;
 }
+
+
+#min{
+    border-radius: 10px;
+    width: 45%;
+    margin: 8px 0;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+
+#max{
+    border-radius: 10px;
+    width: 45%;
+    margin: 8px 0;
+    padding: 12px 15px;
+    margin-bottom: 25px;
+}
+
+#precio{
+    border-radius: 10px;
+    width: 92%;
+    margin: 8px 0;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+
 /*Prubas de estilos para los textos del fomrulario*/
 a {
     color: white;
     font-size: 10px;
     display: block;
- font-family: 'Advent Pro';
+    font-family: 'Advent Pro';
     margin-top: 20px;
     text-decoration: none;
     
@@ -364,21 +281,18 @@ h3 {
     padding:0px 0px;
     font: 'Advent Pro'; 
      width: 300px;
-     margin-top:-200%;
-     height: 550px;
+     height: 520px;
      margin-top: -154%;
      padding-left: 20px;
      border-radius:0px 0px 10px 10px ;
      margin-left: -0.9%;
 }
+
 .sinborde {
     border: 0;
     font-family: 'Advent Pro';
   }
 
-.sinborde:hover{
-    background-color: plum;
-}
 
   /*Se define el area para trabajar en las propiedades*/
 .propiedades{
@@ -409,8 +323,6 @@ h3 {
 
 /*BOTONES DE LAS PROPIEDADES ICONOS*/
 button{
-    height: 50px;
-    width: 50px;
     border-radius: 12px;    
     border-color: #ff8b48;
 }

@@ -28,7 +28,7 @@
                 <div class="EnvolC"> 
 
                     <nav class="ingresar">
-                        <a href="Login.html"><b>Ingresar</b></a>
+                        <a href="login.html"><b>Ingresar</b></a>
                     </nav>
                     <nav class="logo">
                             <a href="#"><img src="img/V2Logo.jpg" alt="" class="imaLogo"></a>
@@ -214,23 +214,21 @@
                 <a href=""><b>Proyectos</b></a>
             </div>
             <div class=menuF>
-                <p>Ubicación </p>
-                <div class="fo w-1">
-                    <div class="textC">
-                <input class="sinborde2" id="textC" type="text" name="Buscar listado">
-            </div>
+                <br>
+                <label>Ubicación </label>
+
+                <div >                  
+                <input class="sinborde2" id="textC" type="text" name="Buscar listado"> 
                 </div>
-                <div class="fo w-11">
 
-                    <a href="mapa.html" target="_blank"><b>Ver mapa</b></a>
-
+                <div class="vermapa">
+                    <a id="vermapa" href="mapa.html" target="_blank"><input id="input" type="button" value="Ver Mapa"></a>                   
                 </div>
-                <p>Tipo de inmueble</p>
-                <div class="fo w-12">
 
-                    <select class="sinborde" name="w-777">
-
-                        <option> Seleccionar</option>
+                <label>Tipo de inmueble</label>
+                <div>
+                    <select id="tipoinmueble" class="sinborde">
+                        <option disable="disable" selected>Seleccionar</option>
                         <option>Departamento</option>
                         <option>Casa</option>
                         <option>Terreno/Lote</option>
@@ -245,15 +243,12 @@
                         <option>Proyecto Horizontal</option>
                         <option>Proyecto Vertical</option>
                         <option>Quinta vacacional</option>
-
-
-
                     </select>
                 </div>
-                <p>Numero de habitaciones</p>
-                <div class="fo w-13">
+                <label>Numero de habitaciones</label>
+                <div class="nHabitaciones">
 
-                    <select class="sinborde" name="w-777">
+                    <select class="sinborde" id="min">
 
                         <option> Sin mínimo </option>
                         <option>1 habitación </option>
@@ -264,9 +259,8 @@
 
 
                     </select>
-                </div>
-                <div class="fo w-14">
-                    <select class="sinborde" name="w-777">
+                
+                    <select class="sinborde" id="max">
 
                         <option> Sin máximo </option>
                         <option>1 habitación </option>
@@ -278,11 +272,11 @@
 
                     </select>
                 </div>
-                <p>Precio</p>
-                <div class="f1-2222" >
-                    <select class="sinborde" name="w-777" style="border: 0px;">
+                <label>Precio</label>
+                <div>
+                    <select id="precio" class="sinborde">
 
-                        <option style="text-align: center;"> Precio </option>
+                        <option> Precio </option>
                         <option>50$</option>
                         <option>100$</option>
                         <option>150$</option>

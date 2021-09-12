@@ -122,6 +122,8 @@ header .ingresar a:hover {
 .mapa{
     grid-area: mapa;
 }
+
+/*Uso del contenedor para el pie de página*/
 .footer{
     grid-area: footer;
   

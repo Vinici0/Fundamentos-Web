@@ -157,7 +157,7 @@ header .ingresar a:hover {
     justify-items: center;
     font-family: 'Advent Pro';
 }
-.legendx{
+.form2{
 	text-align: center;
 	font-size: 1.1rem;
 	margin-bottom: 1rem;
@@ -176,7 +176,7 @@ header .ingresar a:hover {
     height: 60px; 
     
 }
-.legendx a {
+.form2 a {
 	display:inline-block;
 	color:black;
 	text-decoration:none;
@@ -187,7 +187,7 @@ header .ingresar a:hover {
     font: 80% 'Advent Pro';
     	
 }
-.legendx a:hover {
+.form2 a:hover {
 	background:lightpink;
 }
 .fo{

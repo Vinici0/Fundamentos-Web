@@ -33,3 +33,30 @@ body{
     font-weight: bold;
     font: 150% sans-serif;
   }
+
+
+  ul,
+ol {
+  list-style: none;
+}
+.nav > li {
+  float: left;
+}
+.nav li a {
+  color: rgb(48, 43, 43);
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
+}
+.nav li a:hover {
+  background-color: lightpink;
+}
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  background-color: white;
+}
+.nav li:hover > ul {
+  display: block;
+}

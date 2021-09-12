@@ -60,3 +60,40 @@ ol {
 .nav li:hover > ul {
   display: block;
 }
+
+
+.wrapper {
+    width: 95%;
+    max-width: 1400px;
+    margin: 10px;
+    overflow: hidden;
+  }
+  header .ingresarn {
+    float: right;
+    line-height: 70px;
+    color: #292828;
+  }
+  header .publicarn {
+    float: right;
+    line-height: 70px;
+    color: #f2f2f2;
+  }
+  header .ingresarn a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    background: #f56f3a;
+    border-radius: 10px;
+    margin-left: 10px;
+    font: 100% sans-serif;
+  }
+  header .ingresarn a:hover {
+    background: #61afaf;
+    border-radius: 10px;
+  }
+  
+  

@@ -9,7 +9,7 @@ grid-column-gap: 20px;
 margin: 10px;
 border-radius: 20px;
 width: 100%;
-/*height: 2570px;*/
+
                             
 }
 
@@ -124,7 +124,7 @@ header .ingresarn a:hover {
 }
 .footer{
     grid-area: footer;
-    font-family: 'Advent Pro';
+  
 }
 /*Estilos para el pie de página*/
 .footer{
@@ -133,7 +133,8 @@ header .ingresarn a:hover {
     background: url("../img/footer1.PNG");
     background-size: cover;
     background-repeat: no-repeat;
-    /*height: 100%;*/
+    font-family: 'Advent Pro';
+    
 }
 .opcion {
     width: 25%;

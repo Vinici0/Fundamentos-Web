@@ -364,7 +364,7 @@ h2 {
 }
 .footer {
   grid-area: footer;
-  font-family: 'Advent Pro';
+ 
 }
 /*Estilos para el pie de página*/
 .footer {
@@ -374,6 +374,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    font-family: 'Advent Pro';
 }
 .opcion {
   width: 25%;

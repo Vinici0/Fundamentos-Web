@@ -445,7 +445,7 @@ button{
 /*Estilos para el pie de página*/
 .footer{
     grid-area: footer;
-    font-family: 'Advent Pro';
+   
 }
 
 .footer{
@@ -455,6 +455,7 @@ button{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    font-family: 'Advent Pro';
 }
 .opcion {
     width: 25%;
